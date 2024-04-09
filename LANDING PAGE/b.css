@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&family=Ysabeau+SC:wght@1..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: white;
+    left: 0;
+}
+.d1{
+    background-color: white;
+    height: 70px;
+    width: 1500px;
+   position: fixed;
+   top: 0;
+   left: 0;
+}
+.p1{
+    position: relative;
+    color: red;
+    width: 350px;
+    left: 75px;
+    font-family:"Poppins", sans-serif;
+    font-size: 20px;
+    bottom: 520px;
+    font-weight: 500;
+    
+    
+}
+.he1{
+    position: relative;
+    font-family: "Ysabeau SC", sans-serif;
+    bottom: 530px;
+    left: 70px;
+    font-size: 60px;
+    font-weight: bold;
+}
+.he2{
+    left: 70px;
+    position: relative;
+    font-family: "Ysabeau SC", sans-serif;
+    font-size: 60px;
+    bottom: 550px;
+    font-weight: bold;
+}
+.d2{
+    margin-top: 80px;
+    left: 0;
+    object-fit: cover;
+    height: 800px;
+    width: 1400px;
+}
+a{
+    font-family:"Poppins", sans-serif;
+    color: black; 
+    display: grid;
+    margin-left: 250px;
+    font-size: larger;
+    text-decoration: none;
+    position: fixed;
+    grid-template-columns: repeat(4,168px);
+}
+.li{
+    font-family:"Poppins", sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4,128px);
+    left: 870px;
+    color: black;
+    position: fixed;
+    top: 7px;
+    overflow: hidden;
+    text-decoration: none;
+}
+ul:hover{
+    cursor: pointer;
+    color: red;
+}
+.lo{
+     
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    position: fixed;
+    left: 40px;
+}
+.loo{
+    height: 8px;
+    width: 8px;
+    background-color: red;
+    border-radius: 50px;
+    position: fixed;
+    left: 156px;
+    top: 38px;
+}
+
+.d3{
+  
+    margin-top: 120px;
+    margin-left: 880px;
+    object-fit: cover;
+    height: 600px;
+    width: 150px;
+}
+.he3{
+    left: 70px;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    bottom: 550px;
+}
+.btn1{
+    left: 70px;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    bottom: 520px;
+    height: 40px;
+    border: 1px solid black;
+    outline: none;
+    background: transparent;
+}
+.btn1:hover{
+    background-color: black;
+    color: white;
+}
+.c1{
+    position: relative;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    bottom: 200px;
+    left: 480px;
+}
+.c2{
+    position: relative;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    bottom: 250px;
+    left: 780px;
+    color: crimson;
+}
+
+.btn2{
+    position: relative;
+    background-color: green;
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 80px;
+    color: white;
+    bottom: 170px;
+    left: 160px;
+    border-radius: 4px;
+}
+.card{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    left: 160px;
+    bottom: 160px;
+    perspective: 1000px;
+    
+}
+.card-inner{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    transition: transform 1s;
+    transform-style:preserve-3d;
+}
+.card:hover .card-inner{
+    transform: rotateY(-180deg);
+}
+.card-front, .card-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+.card-back{
+    background:linear-gradient(black,gray,white);
+    text-align: center;
+    transform: rotateY(180deg);
+}
+.card-front, .card-back1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+.card-back1{
+    background:linear-gradient(rgb(247, 101, 4),gray,white);
+    text-align: center;
+    transform: rotateY(180deg);
+}
+.card-front, .card-back2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+.card-back2{
+    background:linear-gradient(yellow,white);
+    text-align: center;
+    transform: rotateY(180deg);
+}
+.card-front, .card-back3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+.card-back3{
+    background:linear-gradient(gray,white);
+    text-align: center;
+    transform: rotateY(180deg);
+}
+.card-front, .card-back4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+.card-back4{
+    background:linear-gradient(rgb(0, 102, 255),gray,white);
+    text-align: center;
+    transform: rotateY(180deg);
+}
+.card-front, .card-back5{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+.card-back5{
+    background:linear-gradient(crimson,gray,white);
+    text-align: center;
+    transform: rotateY(180deg);
+}
+.st1{
+    position: relative;
+    bottom: 160px;
+    left: 160px;
+    font-size: larger;
+    color: orange;
+}
+.des{
+    position: relative;
+    bottom: 220px;
+    left: 250px;
+    font-family:"Poppins", sans-serif;
+}
+.des1{
+    position: relative;
+    bottom: 207px;
+    left: 290px;
+    font-family:"Poppins", sans-serif;
+}
+.des2{
+    position: relative;
+    bottom: 207px;
+    left: 290px;
+    font-family:"Poppins", sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+}
+.container1{
+    position: relative;
+    background-color: rgb(211, 205, 205);
+    height: 800px;
+    width: 1500px;
+}
+.b1{
+    position: relative;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    left: 520px;
+    top: 100px;
+}
+.b2{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background: transparent;
+    border: 1px solid black;
+    top: 140px;
+    left: 590px;
+}
+.b3{
+    position: relative;
+    height: 95px;
+    width: 95px;
+    border-radius: 50px;
+    border: 1px solid black;
+    top: 2px;
+    left: 1px;
+}
+.b4{
+    position: relative;
+    text-align: center;
+    margin: 160px;
+    right: 80px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+.b5{
+    position: relative;
+    text-align: center;
+    top: 70px;
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+}
+.b6{
+    position: relative;
+    text-align: center;
+    top: 90px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+.b7{
+    position: relative;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    top: 10px;
+}
+.b8{
+    height: 8px;
+    width: 8px;
+    background-color: red;
+    border-radius: 50px;
+    position: relative;
+    left: 626px;
+    bottom: 20px;
+}
