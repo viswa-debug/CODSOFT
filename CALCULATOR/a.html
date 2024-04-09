@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="b.css">
+    <script src="https://kit.fontawesome.com/be294aa4f4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <img src="vi.jpg">
+    <div class="d1">
+        <div class="d3"></div>
+            <div class="hi">
+            <input type="text" id="d2" placeholder="0"></div>
+            <div class="d5">
+            <button onclick="clr()"class="btn">AC</button>
+            <button onclick="del()"class="btn">DEL</button>
+            <button onclick="dis('%')"class="btn">%</button>
+            <button onclick="dis('/')"class="btn">/</button>
+            <button onclick="dis('9')"class="btn">9</button>
+            <button onclick="dis('8')"class="btn">8</button>
+            <button onclick="dis('7')"class="btn">7</button>
+            <button onclick="dis('*')"class="btn">*</button>
+            <button onclick="dis('6')"class="btn">6</button>
+            <button onclick="dis('5')"class="btn">5</button>
+            <button onclick="dis('4')"class="btn">4</button>
+            <button onclick="dis('-')"class="btn">-</button>
+            <button onclick="dis('3')"class="btn">3</button>
+            <button onclick="dis('2')"class="btn">2</button>
+            <button onclick="dis('1')"class="btn">1</button>
+            <button onclick="dis('+')"class="btn">+</button>
+            <button onclick="dis('.')"class="btn">.</button>
+            <button onclick="dis('0')"class="btn">0</button>
+            <button onclick="cal('=')" class="h"></button>
+            <div class="k"> <i class="fa-solid fa-equals"></i></div>
+        </div>
+    </div>
+    <script>
+        let a=document.getElementById("d2");
+        function dis(num){
+            a.value+=num;
+        }
+        function cal(){
+           try{ 
+            a.value=eval(a.value);
+           }
+           catch(err){
+            alert("invalid input");
+           }
+        }
+        function clr(){
+            a.value='';
+        }
+        function del(){
+            a.value=a.value.slice(0,-1);
+        }
+    </script>
+</body>
+</html>
